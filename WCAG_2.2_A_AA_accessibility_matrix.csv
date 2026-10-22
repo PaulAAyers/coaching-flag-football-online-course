@@ -1,0 +1,56 @@
+﻿WCAG SC,Success Criterion,Level,Assessment,Evidence / Caveat
+1.1.1,Non-text Content,A,Reviewed,Decorative breadcrumb symbols are hidden from assistive technology; no substantive images on the HTML page.
+1.2.1,Audio-only and Video-only (Prerecorded),A,Not applicable,No prerecorded audio or video embedded in the HTML.
+1.2.2,Captions (Prerecorded),A,Not applicable,No prerecorded synchronized media embedded.
+1.2.3,Audio Description or Media Alternative (Prerecorded),A,Not applicable,No prerecorded synchronized media embedded.
+1.2.4,Captions (Live),AA,Not applicable,No live synchronized media embedded.
+1.2.5,Audio Description (Prerecorded),AA,Not applicable,No prerecorded synchronized video embedded.
+1.3.1,Info and Relationships,A,Reviewed,"Semantic header, nav, main, headings, sections and lists inspected; screen-reader validation recommended."
+1.3.2,Meaningful Sequence,A,Reviewed,"DOM order follows visual order, section reading order and list groupings."
+1.3.3,Sensory Characteristics,A,Reviewed,"Instructions do not depend only on visual location, color, shape or sound."
+1.3.4,Orientation,AA,Reviewed,No orientation lock; narrow and wide viewport layouts exercised.
+1.3.5,Identify Input Purpose,AA,Not applicable,No personal-information input controls.
+1.4.1,Use of Color,A,Reviewed,Links are identifiable by underline; interactive states also use outlines/underlines.
+1.4.2,Audio Control,A,Not applicable,No automatically playing audio.
+1.4.3,Contrast (Minimum),AA,Reviewed,"Colors checked: header white/maroon 7.99:1, links 10.00:1, body 14.74:1, status 5.74:1."
+1.4.4,Resize Text,AA,Reviewed,Responsive narrow viewport checks passed; final 200% browser text-zoom check recommended in deployment.
+1.4.5,Images of Text,AA,Not applicable,"Text is HTML, not image-based."
+1.4.10,Reflow,AA,Reviewed,"No horizontal document overflow at 320px, 390px, 768px and desktop test widths."
+1.4.11,Non-text Contrast,AA,Reviewed,Navigation borders are 4.54:1 and focus outlines are 7.11:1 against white.
+1.4.12,Text Spacing,AA,Reviewed,WCAG text-spacing override produced no page-level horizontal overflow at all tested viewport sizes.
+1.4.13,Content on Hover or Focus,AA,Not applicable,"Dropdown content opens by activation, not hover or focus alone."
+2.1.1,Keyboard,A,Reviewed,"Tab, Enter, Escape and menu links tested in Chromium; native details/summary semantics preserved."
+2.1.2,No Keyboard Trap,A,Reviewed,"Focus can enter and leave navigation, and Escape dismisses opened menus."
+2.1.4,Character Key Shortcuts,A,Not applicable,No single-character keyboard shortcuts.
+2.2.1,Timing Adjustable,A,Not applicable,No time-limited interaction.
+2.2.2,"Pause, Stop, Hide",A,Not applicable,"No automatically moving, blinking, scrolling or updating content requiring a pause."
+2.3.1,Three Flashes or Below Threshold,A,Not applicable,No flashing material.
+2.4.1,Bypass Blocks,A,Reviewed,Skip to course materials link is keyboard-first and visibly focused; main is programmatically focusable.
+2.4.2,Page Titled,A,Reviewed,Descriptive HTML title: Coaching Flag Football Principles | Course Materials.
+2.4.3,Focus Order,A,Reviewed,"Focus order follows header, nav, disclosed menu, then course links; focus is transferred to jump targets."
+2.4.4,Link Purpose (In Context),A,Reviewed,Course links use descriptive chapter/part labels; resource links have contextual open/download accessible names.
+2.4.5,Multiple Ways,AA,Site-wide follow-up,Only the packaged HTML and resource files were in scope; evaluate within the deployed multi-page site.
+2.4.6,Headings and Labels,AA,Reviewed,"Meaningful Part, Required/Optional Reading, Objectives and Chapter headings; menu labels updated."
+2.4.7,Focus Visible,AA,Reviewed,All actionable links/disclosures receive high-contrast blue visible outlines.
+2.4.11,Focus Not Obscured (Minimum),AA,Reviewed,"Sticky-navigation scroll padding, anchor offsets and auto-close on focus exit tested at five viewport sizes."
+2.5.1,Pointer Gestures,A,Not applicable,No multipoint or path-based gestures are required.
+2.5.2,Pointer Cancellation,A,Reviewed,"Native links and summary disclosures activate on click, not on pointer down."
+2.5.3,Label in Name,A,Reviewed,Removed aria-labels that masked visible Part I / Chapters; Chromium accessibility tree names retain visible text.
+2.5.4,Motion Actuation,A,Not applicable,No motion/tilt/shake activation.
+2.5.7,Dragging Movements,AA,Not applicable,No dragging interfaces.
+2.5.8,Target Size (Minimum),AA,Reviewed,Breadcrumb controls 42-44px minimum height; menu items 40px; resource actions have larger padding.
+3.1.1,Language of Page,A,Reviewed,HTML lang=en.
+3.1.2,Language of Parts,AA,Not applicable,No passages in another natural language require separate language markup.
+3.2.1,On Focus,A,Reviewed,Focusing controls alone does not trigger navigation or context change.
+3.2.2,On Input,A,Not applicable,No data input or settings controls.
+3.2.3,Consistent Navigation,AA,Site-wide follow-up,Check consistency with other site pages after deployment; this artifact has one HTML page.
+3.2.4,Consistent Identification,AA,Reviewed,Part/Chapter selectors and resource open/download controls are labeled consistently within the page.
+3.2.6,Consistent Help,A,Not applicable,No help mechanism repeated across multiple pages.
+3.3.1,Error Identification,A,Not applicable,No user data entry/validation errors.
+3.3.2,Labels or Instructions,A,Not applicable,No user data input.
+3.3.3,Error Suggestion,AA,Not applicable,No input validation.
+3.3.4,"Error Prevention (Legal, Financial, Data)",AA,Not applicable,No user-submitted transaction or stored data operation.
+3.3.7,Redundant Entry,A,Not applicable,No repeated data entry process.
+3.3.8,Accessible Authentication (Minimum),AA,Not applicable,No authentication interaction.
+4.1.2,"Name, Role, Value",A,Reviewed,"Chromium accessibility tree shows native DisclosureTriangle, correct names, links and state; AT testing recommended."
+4.1.3,Status Messages,AA,Not applicable,No non-focused status messages are generated from user interaction.

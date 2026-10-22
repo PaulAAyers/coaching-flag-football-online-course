@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Complete course materials and outline for Coaching Flag Football Principles." name="description"/>
+<title>Coaching Flag Football Principles | Course Materials</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<style>
+
+    :root {
+      color-scheme: light;
+      --maroon: #942a2c;
+      --text: #282828;
+      --rule: #efefef;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html { font-size: 100%; }
+
+    body {
+      margin: 0;
+      background: #fff;
+      color: var(--text);
+      font-family: "Lato", "Segoe UI", Arial, sans-serif;
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    .course-header {
+      min-height: 142px;
+      padding: 31px 5.25% 24px;
+      border-top-left-radius: 10px;
+      background-color: var(--maroon);
+      color: #fff;
+    }
+
+    .course-header h1 {
+      margin: 0;
+      font-size: 42.25px;
+      font-weight: 700;
+      line-height: 1.185;
+    }
+
+    .course-header .subtitle {
+      margin: 0;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 1.32;
+    }
+
+    main {
+      padding: 58px 6.3% 80px 5.25%;
+    }
+
+    .page-title {
+      margin: 0;
+      padding: 0 0 26px;
+      border-bottom: 1px solid var(--rule);
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 1.3;
+    }
+
+    .required-reading { margin-top: 37px; }
+
+    h3 {
+      margin: 0;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 1.32;
+    }
+
+    h4 {
+      margin: 0;
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 1.4;
+    }
+
+    ul {
+      margin: 13px 0 0;
+      padding-left: 39px;
+    }
+
+    li {
+      padding-left: 0;
+      font-size: 20px;
+      line-height: 1.75;
+    }
+
+    .objectives-heading { margin-top: 15px; }
+
+    .objectives-list { margin-top: 11px; }
+
+    .optional-reading { margin-top: 34px; }
+
+    .optional-reading p {
+      margin: 14px 0 12px;
+    }
+
+    .optional-reading .objectives-heading { margin-top: 16px; }
+
+    .optional-reading .objectives-list { margin-top: 11px; }
+
+    cite { font-style: italic; }
+
+    @media (max-width: 760px) {
+      body { font-size: 17px; }
+      .course-header {
+        min-height: 0;
+        padding: 24px 6% 22px;
+      }
+      .course-header h1 {
+        font-size: clamp(28px, 5vw, 42px);
+        line-height: 1.2;
+      }
+      .course-header .subtitle { font-size: 20px; }
+      main { padding: 35px 6% 70px; }
+      .page-title { font-size: 30px; }
+      h3 { font-size: 25px; }
+      h4 { font-size: 22px; }
+      li { font-size: 17px; line-height: 1.6; }
+      ul { padding-left: 28px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; }
+    }
+  
+    /* Keep the design of the provided Coaching Soccer page while supporting a multi-part course. */
+    .course-section + .course-section { margin-top: 66px; }
+    .reading-block { margin-top: 34px; }
+    .course-section > .reading-block:first-of-type { margin-top: 37px; }
+    .subsection-heading { margin-top: 18px; }
+    .chapter-heading {
+      margin: 16px 0 0;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 1.4;
+    }
+    .chapter-heading + ul { margin-top: 7px; }
+    .reading-block > ul + .subsection-heading { margin-top: 17px; }
+    .reading-block > ul + .chapter-heading { margin-top: 14px; }
+    .reading-block > ul { margin-bottom: 0; }
+    .reading-block .source-marker { font-weight: 700; }
+    a:focus-visible { outline: 3px solid #f7cc62; outline-offset: 3px; }
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 14px;
+      background: #fff;
+      color: #191919;
+      padding: 8px 15px;
+      z-index: 2;
+    }
+    .skip-link:focus { top: 10px; }
+    @media (max-width: 760px) {
+      .chapter-heading { font-size: 20px; }
+      .course-section + .course-section { margin-top: 52px; }
+    }
+
+  
+    /* Resource titles open in a new tab; companion controls offer explicit open/download actions. */
+    .resource-title,
+    .resource-open,
+    .resource-download {
+      color: #7b2226;
+      text-decoration: underline;
+      text-underline-offset: 0.14em;
+      text-decoration-thickness: 1px;
+    }
+    .resource-title:hover,
+    .resource-open:hover,
+    .resource-download:hover {
+      color: #5e1418;
+      text-decoration-thickness: 2px;
+    }
+    .resource-actions {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 12px;
+      margin-left: 10px;
+      font-size: 0.85em;
+      white-space: nowrap;
+      vertical-align: baseline;
+    }
+    .resource-title:focus-visible,
+    .resource-open:focus-visible,
+    .resource-download:focus-visible {
+      outline: 3px solid #3b6d9a;
+      outline-offset: 2px;
+      border-radius: 2px;
+    }
+    @media (max-width: 760px) {
+      .resource-actions { gap: 9px; margin-left: 6px; }
+    }
+
+/* Unavailable resources remain readable; avoid broken links until assets are supplied. */
+.resource-unavailable-title { color: inherit; }
+.resource-unavailable-status {
+  display: inline-block;
+  margin-left: 10px;
+  color: #666;
+  font-size: .84em;
+  font-style: italic;
+}
+
+
+    /* Sticky, keyboard-friendly breadcrumb navigation for four parts and 18 chapters. */
+    :root { --breadcrumb-height: 62px; }
+    .visually-hidden {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      margin: -1px !important;
+      padding: 0 !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      white-space: nowrap !important;
+      border: 0 !important;
+    }
+    .course-breadcrumb-nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      padding: 10px 5.25%;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      box-shadow: 0 2px 5px rgba(0,0,0,.045);
+      font-size: 16px;
+      line-height: 1.35;
+    }
+    .breadcrumb-trail {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 7px 12px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .breadcrumb-trail > li {
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+      line-height: 1.35;
+    }
+    .breadcrumb-home {
+      color: #6f1c21;
+      font-weight: 700;
+      text-underline-offset: 3px;
+    }
+    .breadcrumb-home:hover { color: #4c0e11; }
+    .breadcrumb-separator {
+      color: #777;
+      font-size: 21px !important;
+      font-weight: 400;
+      user-select: none;
+    }
+    .breadcrumb-picker { position: relative; }
+    .breadcrumb-picker > summary {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      padding: 8px 11px;
+      border: 1px solid #d8d8d8;
+      border-radius: 5px;
+      color: #333;
+      background: #fff;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 700;
+      list-style: none;
+      white-space: nowrap;
+    }
+    .breadcrumb-picker > summary::-webkit-details-marker { display: none; }
+    .breadcrumb-picker > summary::marker { content: ''; }
+    .breadcrumb-picker > summary:hover,
+    .breadcrumb-picker[open] > summary {
+      background: #f9f2f2;
+      border-color: #942a2c;
+    }
+    .breadcrumb-caret { color: #942a2c; font-size: 15px; transition: transform .15s ease; }
+    .breadcrumb-picker[open] .breadcrumb-caret { transform: rotate(180deg); }
+    .breadcrumb-panel {
+      position: absolute;
+      z-index: 60;
+      top: calc(100% + 7px);
+      left: 0;
+      width: min(470px, calc(100vw - 24px));
+      max-height: min(64vh, 530px);
+      overflow-y: auto;
+      border: 1px solid #d6d6d6;
+      border-radius: 6px;
+      background: #fff;
+      box-shadow: 0 12px 24px rgba(0,0,0,.16);
+      overscroll-behavior: contain;
+    }
+    .breadcrumb-picker--chapters .breadcrumb-panel {
+      width: min(510px, calc(100vw - 24px));
+    }
+    .breadcrumb-panel .breadcrumb-links {
+      list-style: none;
+      margin: 0;
+      padding: 7px;
+    }
+    .breadcrumb-panel .breadcrumb-links li {
+      margin: 0;
+      padding: 0;
+      font-size: 15px;
+      line-height: 1.4;
+    }
+    .breadcrumb-panel .breadcrumb-links a {
+      display: block;
+      padding: 9px 11px;
+      border-radius: 4px;
+      color: #2a2929;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+    .breadcrumb-panel .breadcrumb-links a:hover,
+    .breadcrumb-panel .breadcrumb-links a:focus-visible,
+    .breadcrumb-panel .breadcrumb-links a[aria-current='location'] {
+      background: #f6e9ea;
+      color: #6f1c21;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .breadcrumb-chapter-group + .breadcrumb-chapter-group { border-top: 1px solid #e9e9e9; }
+    .breadcrumb-group-heading {
+      margin: 0;
+      padding: 13px 16px 2px;
+      color: #671b1f;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+    #course-top,
+    .page-title,
+    .chapter-heading[id],
+    #chapter-13 {
+      scroll-margin-top: calc(var(--breadcrumb-height) + 20px);
+    }
+    .course-breadcrumb-nav a:focus-visible,
+    .course-breadcrumb-nav summary:focus-visible {
+      outline: 3px solid #376b9e;
+      outline-offset: 3px;
+    }
+    @media (max-width: 760px) {
+      .course-breadcrumb-nav { padding: 8px 5%; }
+      .breadcrumb-trail { gap: 5px 7px; }
+      .breadcrumb-trail > li { font-size: 14px; }
+      .breadcrumb-picker > summary { padding: 8px 9px; gap: 5px; }
+      .breadcrumb-home { font-size: 14px; }
+      .breadcrumb-picker--chapters .breadcrumb-panel { right: 0; left: auto; }
+      .breadcrumb-panel { max-height: min(65vh, 480px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .breadcrumb-caret { transition: none; }
+    }
+
+
+    .breadcrumb-home-mobile { display: none; }
+    @media (max-width: 760px) {
+      .breadcrumb-home-desktop { display: none; }
+      .breadcrumb-home-mobile { display: inline; }
+      /* Panels are viewport-aligned to avoid off-screen dropdowns at narrow widths. */
+      .breadcrumb-panel,
+      .breadcrumb-picker--chapters .breadcrumb-panel {
+        position: fixed;
+        top: var(--breadcrumb-bottom, 70px);
+        left: 12px;
+        right: 12px;
+        width: auto;
+        max-height: min(66vh, calc(100dvh - var(--breadcrumb-bottom, 70px) - 12px));
+      }
+    }
+
+    /* WCAG 2.2 A/AA remediation: visible focus, sufficient component contrast,
+       pointer target areas, focus-safe sticky navigation and user text spacing. */
+    html { scroll-padding-top: calc(var(--breadcrumb-height, 62px) + 22px); }
+    .skip-link {
+      position: fixed;
+      top: -100px;
+      left: 12px;
+      z-index: 1000;
+      border: 2px solid #075a9c;
+      border-radius: 5px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.18);
+      text-decoration: underline;
+    }
+    .skip-link:focus, .skip-link:focus-visible { top: 12px; }
+    a:focus-visible,
+    .resource-title:focus-visible,
+    .resource-open:focus-visible,
+    .resource-download:focus-visible,
+    .course-breadcrumb-nav a:focus-visible,
+    .course-breadcrumb-nav summary:focus-visible,
+    .skip-link:focus-visible {
+      outline: 3px solid #075a9c;
+      outline-offset: 3px;
+    }
+    .course-breadcrumb-nav .breadcrumb-home {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 0 5px;
+    }
+    .breadcrumb-picker > summary {
+      min-height: 44px;
+      border: 2px solid #767676;
+    }
+    .breadcrumb-panel { border: 2px solid #767676; }
+    .breadcrumb-panel .breadcrumb-links a {
+      display: flex;
+      align-items: center;
+      min-height: 40px;
+    }
+    .resource-actions {
+      flex-wrap: wrap;
+      white-space: normal;
+      gap: 8px 12px;
+    }
+    .resource-actions a {
+      display: inline-block;
+      padding: 4px 2px;
+      white-space: nowrap;
+    }
+    .page-title:focus,
+    .chapter-heading:focus,
+    #chapter-13:focus {
+      outline: 3px solid #075a9c;
+      outline-offset: 4px;
+    }
+    /* The skip-link destination takes programmatic focus and does not add a
+       document-sized focus rectangle. Its first section heading remains visible. */
+    #main-content:focus { outline: none; }
+    @media (max-width: 480px) {
+      .breadcrumb-trail { gap: 4px 6px; }
+      .course-breadcrumb-nav .breadcrumb-home { min-height: 42px; padding: 0 2px; }
+      .breadcrumb-picker > summary { min-height: 42px; padding: 7px 8px; }
+    }
+
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to course materials</a>
+<header class="course-header" id="course-top" tabindex="-1">
+<h1>Coaching Flag Football Principles</h1>
+<p class="subtitle">Course Materials</p>
+</header><nav aria-label="Course breadcrumb navigation" class="course-breadcrumb-nav"><ol class="breadcrumb-trail"><li><a aria-label="Return to top of course materials" class="breadcrumb-home" href="#course-top"><span class="breadcrumb-home-desktop">Course Materials</span><span class="breadcrumb-home-mobile">Top</span></a></li><li aria-hidden="true" class="breadcrumb-separator">›</li><li class="breadcrumb-picker-item"><details class="breadcrumb-picker" id="jump-to-part"><summary><span class="visually-hidden">Choose course part. Current part: </span><span id="breadcrumb-current-part">Part I</span><span aria-hidden="true" class="breadcrumb-caret">▾</span></summary><div class="breadcrumb-panel breadcrumb-panel--parts"><ul class="breadcrumb-links"><li><a href="#part-1">I. Establishing Your Coaching Approach</a></li><li><a href="#part-2">II. Building and Maintaining a Program</a></li><li><a href="#part-3">III. Teaching the Game to the Team</a></li><li><a href="#part-4">IV. Preparing for and Coaching Games</a></li></ul></div></details></li><li aria-hidden="true" class="breadcrumb-separator">›</li><li class="breadcrumb-picker-item"><details class="breadcrumb-picker breadcrumb-picker--chapters" id="jump-to-chapter"><summary><span class="visually-hidden">Jump to </span>Chapters<span aria-hidden="true" class="breadcrumb-caret">▾</span></summary><div class="breadcrumb-panel breadcrumb-panel--chapters"><div class="breadcrumb-chapter-group"><p class="breadcrumb-group-heading">I. Establishing Your Coaching Approach</p><ul class="breadcrumb-links"><li><a href="#chapter-1">Chapter 1: Learning and Leading in Flag Football</a></li><li><a href="#chapter-2">Chapter 2: Coaching Philosophy and Priorities</a></li><li><a href="#chapter-3">Chapter 3: Communication and Motivation</a></li></ul></div><div class="breadcrumb-chapter-group"><p class="breadcrumb-group-heading">II. Building and Maintaining a Program</p><ul class="breadcrumb-links"><li><a href="#chapter-4">Chapter 4: Coach a Team, Construct a Program</a></li><li><a href="#chapter-5">Chapter 5: A Culture of Caring</a></li><li><a href="#chapter-6">Chapter 6: Program Support and Resources</a></li><li><a href="#chapter-7">Chapter 7: Program Organization and Expectations</a></li><li><a href="#chapter-8">Chapter 8: Season and Practice Scheduling</a></li></ul></div><div class="breadcrumb-chapter-group"><p class="breadcrumb-group-heading">III. Teaching the Game to the Team</p><ul class="breadcrumb-links"><li><a href="#chapter-9">Chapter 9: Developing Offensive Skills</a></li><li><a href="#chapter-10">Chapter 10: Playing Offense</a></li><li><a href="#chapter-11">Chapter 11: Developing Defensive Skills</a></li><li><a href="#chapter-12">Chapter 12: Playing Defense</a></li><li><a href="#chapter-13">Chapter 13: Coaching Special Teams</a></li></ul></div><div class="breadcrumb-chapter-group"><p class="breadcrumb-group-heading">IV. Preparing for and Coaching Games</p><ul class="breadcrumb-links"><li><a href="#chapter-14">Chapter 14: Off-Season Goals and Competitions</a></li><li><a href="#chapter-15">Chapter 15: Game Planning and Preparation</a></li><li><a href="#chapter-16">Chapter 16: Sportsmanship</a></li><li><a href="#chapter-17">Chapter 17: In-Game Adjustments</a></li><li><a href="#chapter-18">Chapter 18: Postgame Review</a></li></ul></div></div></details></li></ol></nav>
+<main id="main-content" tabindex="-1">
+<section aria-labelledby="part-1" class="course-section">
+<h2 class="page-title" id="part-1" tabindex="-1">I. Establishing Your Coaching Approach</h2>
+<section aria-labelledby="reading-1" class="reading-block required-reading">
+<h3 id="reading-1">Required Reading (in <cite>Coaching Flag Football</cite>)</h3>
+<ul>
+<li>Chapter 1 Learning and Leading in Flag Football</li>
+<li>Chapter 2 Coaching Philosophy and Priorities</li>
+<li>Chapter 3 Communication and Motivation</li>
+</ul>
+<h4 class="subsection-heading objectives-heading">Learning Objectives</h4>
+<h5 class="chapter-heading" id="chapter-1" tabindex="-1">Chapter 1</h5>
+<ul class="objectives-list">
+<li>Explain the growth of flag football and the expanding role of coaches in developing the sport.</li>
+<li>Differentiate flag football from tackle football and apply those distinctions to coaching decisions and athlete development.</li>
+<li>Recognize the leadership responsibilities of a flag football coach in creating positive athletic experiences and advancing the sport.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-2" tabindex="-1">Chapter 2</h5>
+<ul class="objectives-list">
+<li>Develop a personal coaching philosophy that guides decision-making, player development, and program leadership.</li>
+<li>Promote athlete growth by creating opportunities to build life skills, resilience, and positive experiences through sport.</li>
+<li>Apply the principles of hard work, continuous learning, and simplicity to maximize coaching effectiveness and player performance.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-3" tabindex="-1">Chapter 3</h5>
+<ul class="objectives-list">
+<li>Demonstrate effective communication strategies that strengthen relationships, enhance learning, and support team success.</li>
+<li>Apply communication techniques appropriate to practices, games, and interactions with parents and stakeholders.</li>
+<li>Create an environment that fosters player motivation, confidence, accountability, and self-improvement.</li>
+</ul>
+</section>
+<section aria-labelledby="reading-2" class="reading-block optional-reading">
+<h3 id="reading-2">Optional Reading (from <cite>Successful Coaching, Fifth Edition</cite>)</h3>
+<ul>
+<li><span class="resource-unavailable-title">Determining Your Coaching Objectives</span> (pp. 14-23) <span class="resource-unavailable-status">File not yet supplied</span></li>
+<li><span class="resource-unavailable-title">Understanding Maturational Differences in Young Athletes</span> (pp. 38-43) <span class="resource-unavailable-status">File not yet supplied</span></li>
+<li><span class="resource-unavailable-title">Developing Your Communication Skills</span> (pp. 68-76) <span class="resource-unavailable-status">File not yet supplied</span></li>
+</ul>
+<h4 class="subsection-heading">Forms</h4>
+<ul>
+<li><a aria-label="Your Coaching Objectives (Form 2.1) — open PDF in a new tab" class="resource-title" href="resources/forms/Martens5E_HKPropel_Form%202.1.pdf" rel="noopener noreferrer" target="_blank">Your Coaching Objectives (Form 2.1)</a> <strong>\</strong><strong>QQSource</strong><strong>: CP5E course </strong><strong>xQQ</strong><strong>\</strong>  <span class="resource-actions">
+	
+<a aria-label="Open Your Coaching Objectives (Form 2.1) as PDF in a new tab" class="resource-open" href="resources/forms/Martens5E_HKPropel_Form%202.1.pdf" rel="noopener noreferrer" target="_blank">Open ↗</a>
+	
+<a aria-label="Download Your Coaching Objectives (Form 2.1) as editable Word document" class="resource-download" download="Martens5E_HKPropel_Form 2.1.docx" href="resources/forms/Martens5E_HKPropel_Form%202.1.docx">Download ↓</a></span></li>
+
+	
+<li><a aria-label="Personal Reasons for Coaching (Form 2.2) — open PDF in a new tab" class="resource-title" href="resources/forms/Martens5E_HKPropel_Form%202.2.pdf" rel="noopener noreferrer" target="_blank">Personal Reasons for Coaching (Form 2.2)</a> <strong>\</strong><strong>QQSource</strong><strong>: CP5E course </strong><strong>xQQ</strong><strong>\</strong>  <span class="resource-actions"><a aria-label="Open Personal Reasons for Coaching (Form 2.2) as PDF in a new tab" class="resource-open" href="resources/forms/Martens5E_HKPropel_Form%202.2.pdf" rel="noopener noreferrer" target="_blank">Open ↗</a><a aria-label="Download Personal Reasons for Coaching (Form 2.2) as editable Word document" class="resource-download" download="Martens5E_HKPropel_Form 2.2.docx" href="resources/forms/Martens5E_HKPropel_Form%202.2.docx">Download ↓</a></span></li>
+</ul>
+<h4 class="subsection-heading objectives-heading">Learning Objectives</h4>
+<ul class="objectives-list">
+<li>Identify the three primary coaching objectives—winning, athlete enjoyment, and athlete development—and explain how they influence coaching decisions.</li>
+<li>Apply the philosophy of “Athletes First, Winning Second” when making coaching decisions that affect athlete welfare and performance.</li>
+<li>Recognize the characteristics, advantages, and challenges associated with early- and late-maturing athletes.</li>
+<li>Apply coaching strategies that support equitable athlete development regardless of physical maturity, including avoiding early specialization and position pigeonholing.</li>
+<li>Apply a positive communication approach that promotes athlete confidence, learning, and motivation while avoiding negative communication habits.</li>
+<li>Use clear, specific, and information-rich feedback to improve athlete performance and understanding.</li>
+</ul>
+</section>
+</section>
+<section aria-labelledby="part-2" class="course-section">
+<h2 class="page-title" id="part-2" tabindex="-1">II. Building and Maintaining a Program</h2>
+<section aria-labelledby="reading-3" class="reading-block required-reading">
+<h3 id="reading-3">Required Reading (in <cite>Coaching Flag Football</cite>)</h3>
+<ul>
+<li>Chapter 4 Coach a Team, Construct a Program</li>
+<li>Chapter 5 A Culture of Caring</li>
+<li>Chapter 6 Program Support and Resources</li>
+<li>Chapter 7 Program Organization and Expectations</li>
+<li>Chapter 8 Season and Practice Scheduling</li>
+</ul>
+<h4 class="subsection-heading objectives-heading">Learning Objectives</h4>
+<h5 class="chapter-heading" id="chapter-4" tabindex="-1">Chapter 4</h5>
+<ul class="objectives-list">
+<li>Differentiate between building a team and building a sustainable program that supports long-term success.</li>
+<li>Establish and reinforce a repeatable program philosophy that emphasizes standards, athlete development, and continuity.</li>
+<li>Develop players and feeder systems that strengthen both current team performance and future program growth.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-5" tabindex="-1">Chapter 5</h5>
+<ul class="objectives-list">
+<li>Explain how a culture of caring contributes to athlete development, team cohesion, and program success.</li>
+<li>Apply standards of behavior that promote positive conduct, cohesion, sacrifice, gratitude, and respect within a team.</li>
+<li>Utilize team leadership and captains to sustain and strengthen program culture.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-6" tabindex="-1">Chapter 6</h5>
+<ul class="objectives-list">
+<li>Identify the personnel, facilities, equipment, and community resources necessary to support a successful flag football program.</li>
+<li>Build productive relationships with assistant coaches, managers, parents, school personnel, and game staff.</li>
+<li>Organize and manage program resources to enhance player experiences and overall program effectiveness.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-7" tabindex="-1">Chapter 7</h5>
+<ul class="objectives-list">
+<li>Organize and manage a flag football program by effectively delegating responsibilities, aligning stakeholders, and maintaining operational cohesion.</li>
+<li>Establish and communicate clear expectations for players, coaches, parents, and supporters that promote accountability, commitment, and program success.</li>
+<li>Apply leadership principles that foster adaptability, teamwork, character, and a unified culture throughout the program.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-8" tabindex="-1">Chapter 8</h5>
+<ul class="objectives-list">
+<li>Design a seasonal plan that aligns practice, competition, and player development goals throughout the year.</li>
+<li>Organize phase-specific practices that support skill development, team culture, and competitive readiness.</li>
+<li>Apply effective scheduling strategies to maximize player participation, staff effectiveness, and team performance.</li>
+</ul>
+</section>
+<section aria-labelledby="reading-4" class="reading-block optional-reading">
+<h3 id="reading-4">Optional Reading (from <cite>Successful Coaching, Fifth Edition</cite>)</h3>
+<ul>
+<li><span class="resource-unavailable-title">Promoting Athletes’ Mental Health and Preventing Abuse</span> (pp. 52-57) <span class="resource-unavailable-status">File not yet supplied</span></li>
+<li><span class="resource-unavailable-title">Managing Anxiety and Encouraging Multisport Participation</span> (pp. 94-99) <span class="resource-unavailable-status">File not yet supplied</span></li>
+<li><span class="resource-unavailable-title">Planning for Teaching and Practicing</span> (pp. 188-199, 136-144) <span class="resource-unavailable-status">File not yet supplied</span></li>
+</ul>
+<h4 class="subsection-heading">Forms</h4>
+<ul>
+<li><a aria-label="Technical Skill Instruction Form (Form 12.1) — open PDF in a new tab" class="resource-title" href="resources/forms/Martens5E_HKPropel_Form%2012.1.pdf" rel="noopener noreferrer" target="_blank">Technical Skill Instruction Form (Form 12.1)</a> <strong>\</strong><strong>QQSource</strong><strong>: CP5E course </strong><strong>xQQ</strong><strong>\</strong>  <span class="resource-actions"><a aria-label="Open Technical Skill Instruction Form (Form 12.1) as PDF in a new tab" class="resource-open" href="resources/forms/Martens5E_HKPropel_Form%2012.1.pdf" rel="noopener noreferrer" target="_blank">Open ↗</a><a aria-label="Download Technical Skill Instruction Form (Form 12.1) as editable Word document" class="resource-download" download="Martens5E_HKPropel_Form 12.1.docx" href="resources/forms/Martens5E_HKPropel_Form%2012.1.docx">Download ↓</a></span></li>
+<li><a aria-label="Evaluating Your Team Situation (Form 12.2) — open PDF in a new tab" class="resource-title" href="resources/forms/Martens5E_HKPropel_Form%2012.2.pdf" rel="noopener noreferrer" target="_blank">Evaluating Your Team Situation (Form 12.2)</a> <strong>\</strong><strong>QQSource</strong><strong>: CP5E course </strong><strong>xQQ</strong><strong>\</strong>  <span class="resource-actions"><a aria-label="Open Evaluating Your Team Situation (Form 12.2) as PDF in a new tab" class="resource-open" href="resources/forms/Martens5E_HKPropel_Form%2012.2.pdf" rel="noopener noreferrer" target="_blank">Open ↗</a><a aria-label="Download Evaluating Your Team Situation (Form 12.2) as editable Word document" class="resource-download" download="Martens5E_HKPropel_Form 12.2.docx" href="resources/forms/Martens5E_HKPropel_Form%2012.2.docx">Download ↓</a></span></li>
+</ul>
+<h4 class="subsection-heading objectives-heading">Learning Objectives</h4>
+<ul class="objectives-list">
+<li>Identify factors within sport that can contribute to mental health concerns and understand the coach’s role in supporting athlete well-being.</li>
+<li>Implement athlete-protection practices, communication guidelines, and professional boundaries that help create a safe and respectful sport environment.</li>
+<li>Identify the causes, symptoms, and consequences of athlete burnout and implement practices that reduce risk.</li>
+<li>Demonstrate self-awareness and emotional regulation strategies that enable coaches to model effective anxiety and stress management during competition.</li>
+<li>Apply the five-step instruction planning process: identifying required skills, knowing athletes, analyzing the coaching situation, establishing priorities, and planning practices.</li>
+<li>Design developmentally appropriate, purposeful, and engaging practice sessions that maximize learning and active participation.</li>
+</ul>
+</section>
+</section>
+<section aria-labelledby="part-3" class="course-section">
+<h2 class="page-title" id="part-3" tabindex="-1">III. Teaching the Game to the Team</h2>
+<section aria-labelledby="reading-5" class="reading-block required-reading">
+<h3 id="reading-5">Required Reading (in <cite>Coaching Flag Football</cite>)</h3>
+<ul>
+<li>Chapter 9 Developing Offensive Skills</li>
+<li>Chapter 10 Playing Offense</li>
+<li>Chapter 11 Developing Defensive Skills</li>
+<li>Chapter 12 Playing Defense</li>
+<li id="chapter-13" tabindex="-1">Chapter 13 Coaching Special Teams</li>
+</ul>
+<h4 class="subsection-heading objectives-heading">Learning Objectives</h4>
+<h5 class="chapter-heading" id="chapter-9" tabindex="-1">Chapter 9</h5>
+<ul class="objectives-list">
+<li>Teach and develop fundamental offensive skills, including receiving, route running, and running back and quarterback play.</li>
+<li>Apply effective instruction, feedback, and drills to support skill acquisition, refinement, and confident performance.</li>
+<li>Evaluate quarterback technical, tactical, and mental skills to enhance offensive execution and player development.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-10" tabindex="-1">Chapter 10</h5>
+<ul class="objectives-list">
+<li>Design and implement an offensive system that aligns with team strengths and quarterback capabilities.</li>
+<li>Apply principles of play calling, route running, and quarterback decision-making to improve offensive efficiency.</li>
+<li>Organize offensive formations, practice methods, and film study to promote consistent execution and performance.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-11" tabindex="-1">Chapter 11</h5>
+<ul class="objectives-list">
+<li>Develop defensive fundamentals, including aggression, flag-pulling technique, and position-specific skills.</li>
+<li>Apply drills and coaching strategies that improve defensive execution and player confidence.</li>
+<li>Evaluate player traits to assign defensive positions that maximize team performance.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-12" tabindex="-1">Chapter 12</h5>
+<ul class="objectives-list">
+<li>Explain the core defensive principles that guide successful team defense.</li>
+<li>Compare the strengths, weaknesses, and responsibilities of common defensive schemes, including Cover 2, Cover 3, and man-to-man defense.</li>
+<li>Implement defensive alignments and adjustments based on down, distance, opponent tendencies, and quarterback capabilities.</li>
+</ul>
+</section>
+<section aria-labelledby="reading-6" class="reading-block optional-reading">
+<h3 id="reading-6">Optional Reading (from <cite>Successful Coaching, Fifth Edition</cite>)</h3>
+<ul>
+<li><span class="resource-unavailable-title">Teaching Technical Skills</span> (pp. 156-158, 161-164) <span class="resource-unavailable-status">File not yet supplied</span></li>
+<li><span class="resource-unavailable-title">Managing Risk</span> (pp. 361-378) <span class="resource-unavailable-status">File not yet supplied</span></li>
+</ul>
+</section>
+<section aria-labelledby="reading-7" class="reading-block optional-reading">
+<h3 id="reading-7">Optional Reading (from <cite>Sport First Aid, Sixth Edition</cite>)</h3>
+<ul>
+<li><span class="resource-unavailable-title">Preventing and Responding to Weather-Related Injuries and Illnesses</span> (pp. 135-149) <span class="resource-unavailable-status">File not yet supplied</span></li>
+</ul>
+<h4 class="subsection-heading">Forms</h4>
+<ul>
+<li><a aria-label="Facilities Inspection Checklist (Form 20.2) — open PDF in a new tab" class="resource-title" href="resources/forms/Martens5E_HKPropel_Form%2020.2.pdf" rel="noopener noreferrer" target="_blank">Facilities Inspection Checklist (Form 20.2)</a> <strong>\</strong><strong>QQSource</strong><strong>: CP5E course </strong><strong>xQQ</strong><strong>\</strong>  <span class="resource-actions"><a aria-label="Open Facilities Inspection Checklist (Form 20.2) as PDF in a new tab" class="resource-open" href="resources/forms/Martens5E_HKPropel_Form%2020.2.pdf" rel="noopener noreferrer" target="_blank">Open ↗</a><a aria-label="Download Facilities Inspection Checklist (Form 20.2) as editable Word document" class="resource-download" download="Martens5E_HKPropel_Form 20.2.docx" href="resources/forms/Martens5E_HKPropel_Form%2020.2.docx">Download ↓</a></span></li>
+<li><a aria-label="Large Equipment Inspection Checklist (Form 20.3) — open PDF in a new tab" class="resource-title" href="resources/forms/Martens5E_HKPropel_Form%2020.3.pdf" rel="noopener noreferrer" target="_blank">Large Equipment Inspection Checklist (Form 20.3)</a> <strong>\</strong><strong>QQSource</strong><strong>: CP5E course </strong><strong>xQQ</strong><strong>\</strong>  <span class="resource-actions"><a aria-label="Open Large Equipment Inspection Checklist (Form 20.3) as PDF in a new tab" class="resource-open" href="resources/forms/Martens5E_HKPropel_Form%2020.3.pdf" rel="noopener noreferrer" target="_blank">Open ↗</a><a aria-label="Download Large Equipment Inspection Checklist (Form 20.3) as editable Word document" class="resource-download" download="Martens5E_HKPropel_Form 20.3.docx" href="resources/forms/Martens5E_HKPropel_Form%2020.3.docx">Download ↓</a></span></li>
+<li><a aria-label="Personal Equipment Inspection Checklist (Form 20.4) — open PDF in a new tab" class="resource-title" href="resources/forms/Martens5E_HKPropel_Form%2020.4.pdf" rel="noopener noreferrer" target="_blank">Personal Equipment Inspection Checklist (Form 20.4)</a> <strong>\</strong><strong>QQSource</strong><strong>: CP5E course </strong><strong>xQQ</strong><strong>\</strong>  <span class="resource-actions"><a aria-label="Open Personal Equipment Inspection Checklist (Form 20.4) as PDF in a new tab" class="resource-open" href="resources/forms/Martens5E_HKPropel_Form%2020.4.pdf" rel="noopener noreferrer" target="_blank">Open ↗</a><a aria-label="Download Personal Equipment Inspection Checklist (Form 20.4) as editable Word document" class="resource-download" download="Martens5E_HKPropel_Form 20.4.docx" href="resources/forms/Martens5E_HKPropel_Form%2020.4.docx">Download ↓</a></span></li>
+<li><a aria-label="Informed Consent Form (Form 20.5) — open PDF in a new tab" class="resource-title" href="resources/forms/Martens5E_HKPropel_Form%2020.5.pdf" rel="noopener noreferrer" target="_blank">Informed Consent Form (Form 20.5)</a> <strong>\</strong><strong>QQSource</strong><strong>: CP5E course </strong><strong>xQQ</strong><strong>\</strong>  <span class="resource-actions"><a aria-label="Open Informed Consent Form (Form 20.5) as PDF in a new tab" class="resource-open" href="resources/forms/Martens5E_HKPropel_Form%2020.5.pdf" rel="noopener noreferrer" target="_blank">Open ↗</a><a aria-label="Download Informed Consent Form (Form 20.5) as editable Word document" class="resource-download" download="Martens5E_HKPropel_Form 20.5.docx" href="resources/forms/Martens5E_HKPropel_Form%2020.5.docx">Download ↓</a></span></li>
+<li><a aria-label="Injury Report Form (Form 20.7) — open PDF in a new tab" class="resource-title" href="resources/forms/Martens5E_HKPropel_Form%2020.7.pdf" rel="noopener noreferrer" target="_blank">Injury Report Form (Form 20.7)</a> <strong>\</strong><strong>QQSource</strong><strong>: CP5E course </strong><strong>xQQ</strong><strong>\</strong>  <span class="resource-actions"><a aria-label="Open Injury Report Form (Form 20.7) as PDF in a new tab" class="resource-open" href="resources/forms/Martens5E_HKPropel_Form%2020.7.pdf" rel="noopener noreferrer" target="_blank">Open ↗</a><a aria-label="Download Injury Report Form (Form 20.7) as editable Word document" class="resource-download" download="Martens5E_HKPropel_Form 20.7.docx" href="resources/forms/Martens5E_HKPropel_Form%2020.7.docx">Download ↓</a></span></li>
+</ul>
+<h4 class="subsection-heading objectives-heading">Learning Objectives</h4>
+<ul class="objectives-list">
+<li>Apply the four-step process for teaching technical skills: introducing the skill, demonstrating and explaining the skill, providing practice opportunities, and correcting errors through feedback.</li>
+<li>Design practice activities that promote skill acquisition through game-like conditions, efficient organization, appropriate progressions, and enjoyable learning experience.</li>
+<li>Apply the four-step risk management process by identifying risks, evaluating their likelihood and severity, selecting appropriate risk-management strategies, and implementing those strategies.</li>
+<li>Develop procedures that protect athletes from harm, including those for injury prevention, concussion management, bullying prevention, and emergency preparedness.</li>
+</ul>
+</section>
+</section>
+<section aria-labelledby="part-4" class="course-section">
+<h2 class="page-title" id="part-4" tabindex="-1">IV. Preparing for and Coaching Games</h2>
+<section aria-labelledby="reading-8" class="reading-block required-reading">
+<h3 id="reading-8">Required Reading (in <cite>Coaching Flag Football</cite>)</h3>
+<ul>
+<li>Chapter 14 Off-Season Goals and Competitions</li>
+<li>Chapter 15 Game Planning and Preparation</li>
+<li>Chapter 16 Sportsmanship</li>
+<li>Chapter 17 In-Game Adjustments</li>
+<li>Chapter 18 Postgame Review</li>
+</ul>
+<h4 class="subsection-heading objectives-heading">Learning Objectives</h4>
+<h5 class="chapter-heading" id="chapter-14" tabindex="-1">Chapter 14</h5>
+<ul class="objectives-list">
+<li>Identify the three primary objectives of the off-season: culture, player development, and program standards.</li>
+<li>Design off-season activities that promote player growth while reinforcing team culture and routines.</li>
+<li>Evaluate the purpose of off-season competitions and align them with developmental goals rather than win-loss outcomes.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-15" tabindex="-1">Chapter 15</h5>
+<ul class="objectives-list">
+<li>Develop and implement a structured game plan that prepares players for specific opponents.</li>
+<li>Analyze game film and scouting information to identify opponent tendencies and team performance needs.</li>
+<li>Apply a consistent preparation process that builds player confidence, understanding, and readiness for competition.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-16" tabindex="-1">Chapter 16</h5>
+<ul class="objectives-list">
+<li>Explain the role of respect as the foundation of sportsmanship in flag football.</li>
+<li>Promote respectful interactions with officials, opponents, coaches, and the game to enhance program culture and reputation.</li>
+<li>Demonstrate strategies for modeling and teaching positive sportsmanship to players, parents, and fans.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-17" tabindex="-1">Chapter 17</h5>
+<ul class="objectives-list">
+<li>Recognize when in-game adjustments are needed and differentiate between major changes and minor tactical tweaks.</li>
+<li>Develop players’ ability to self-correct, communicate, and adapt under game pressure.</li>
+<li>Apply effective communication strategies to implement offensive and defensive adjustments during competition.</li>
+</ul>
+<h5 class="chapter-heading" id="chapter-18" tabindex="-1">Chapter 18</h5>
+<ul class="objectives-list">
+<li>Evaluate game performance against pregame objectives to identify areas of success and improvement.</li>
+<li>Implement a structured postgame process that reinforces sportsmanship, reflection, and accountability.</li>
+<li>Use postgame meetings and feedback to support player development and prepare for future competition.</li>
+</ul>
+</section>
+<section aria-labelledby="reading-9" class="reading-block optional-reading">
+<h3 id="reading-9">Optional Reading (from <cite>Sport First Aid, Sixth Edition</cite>)</h3>
+<ul>
+<li><span class="resource-unavailable-title">Attending to Athletes’ Health and Safety</span> (pp. 4-12) <span class="resource-unavailable-status">File not yet supplied</span></li>
+<li><span class="resource-unavailable-title">Preparing for First Aid Emergencies</span> (pp. 13-26) <span class="resource-unavailable-status">File not yet supplied</span></li>
+</ul>
+<h4 class="subsection-heading">Worksheet</h4>
+<ul>
+<li><a aria-label="Evaluating Your Sport First Aid Game Plan (Worksheet 2.1) — open PDF in a new tab" class="resource-title" href="resources/forms/Worksheet%2002-01%20Evaluating%20Your%20Sport%20First%20Aid%20Game%20Plan.pdf" rel="noopener noreferrer" target="_blank">Evaluating Your Sport First Aid Game Plan (Worksheet 2.1)</a> <strong>\</strong><strong>QQSource</strong><strong>: SFA6E course </strong><strong>xQQ</strong><strong>\</strong>  <span class="resource-actions"><a aria-label="Open Evaluating Your Sport First Aid Game Plan (Worksheet 2.1) as PDF in a new tab" class="resource-open" href="resources/forms/Worksheet%2002-01%20Evaluating%20Your%20Sport%20First%20Aid%20Game%20Plan.pdf" rel="noopener noreferrer" target="_blank">Open ↗</a><a aria-label="Download Evaluating Your Sport First Aid Game Plan (Worksheet 2.1) as editable Word document" class="resource-download" download="Worksheet 02-01 Evaluating Your Sport First Aid Game Plan.docx" href="resources/forms/Worksheet%2002-01%20Evaluating%20Your%20Sport%20First%20Aid%20Game%20Plan.docx">Download ↓</a></span></li>
+</ul>
+<h4 class="subsection-heading objectives-heading">Learning Objectives</h4>
+<ul class="objectives-list">
+<li>Describe the coach’s role in injury prevention, athlete supervision, emergency response, and communication with athletes, parents, and health care providers.</li>
+<li>Apply key coaching responsibilities related to safe instruction, proper equipment, risk management, athlete matching, and injury evaluation.</li>
+<li>Implement strategies that prepare athletes for participation, including physical examinations, fitness screenings, conditioning programs, proper warm-up and cool-down routines, and safe skill instruction.</li>
+<li>Create and implement an emergency action plan (EAP) using the assess, alert, and attend framework.</li>
+</ul>
+</section>
+</section>
+</main>
+<script>
+(() => {
+  'use strict';
+  const nav = document.querySelector('.course-breadcrumb-nav');
+  if (!nav) return;
+  const menus = Array.from(nav.querySelectorAll('details.breadcrumb-picker'));
+  const partHeads = Array.from(document.querySelectorAll('.course-section > h2.page-title'));
+  const partIndicator = document.getElementById('breadcrumb-current-part');
+  const roman = ['I', 'II', 'III', 'IV'];
+  let scheduled = false;
+
+  function updateNavHeight() {
+    document.documentElement.style.setProperty('--breadcrumb-height', nav.offsetHeight + 'px');
+    document.documentElement.style.setProperty('--breadcrumb-bottom', Math.ceil(nav.getBoundingClientRect().bottom + 7) + 'px');
+  }
+  function currentPart() {
+    const threshold = nav.getBoundingClientRect().bottom + 24;
+    let index = 0;
+    partHeads.forEach((heading, i) => {
+      if (heading.getBoundingClientRect().top <= threshold) index = i;
+    });
+    return index;
+  }
+  function updatePartIndicator() {
+    const index = currentPart();
+    partIndicator.textContent = 'Part ' + roman[index];
+    const activeId = partHeads[index].id;
+    nav.querySelectorAll('#jump-to-part .breadcrumb-links a').forEach(a => {
+      if (a.getAttribute('href') === '#' + activeId) {
+        a.setAttribute('aria-current','location');
+      } else {
+        a.removeAttribute('aria-current');
+      }
+    });
+  }
+  function scheduleUpdate() {
+    if (scheduled) return;
+    scheduled = true;
+    requestAnimationFrame(() => {
+      scheduled = false;
+      updateNavHeight();
+      updatePartIndicator();
+    });
+  }
+  menus.forEach(menu => {
+    menu.addEventListener('toggle', () => {
+      if (menu.open) menus.forEach(other => { if (other !== menu) other.open = false; });
+    });
+  });
+  nav.querySelectorAll('.breadcrumb-panel a[href^="#"]').forEach(a => {
+    a.addEventListener('click', () => {
+      menus.forEach(menu => { menu.open = false; });
+      const target = document.getElementById(a.getAttribute('href').slice(1));
+      if (target) {
+        // Let native hash navigation scroll the target; focus it for screen readers.
+        requestAnimationFrame(() => target.focus({preventScroll: true}));
+      }
+      scheduleUpdate();
+    });
+  });
+  document.addEventListener('click', event => {
+    if (!nav.contains(event.target)) menus.forEach(menu => { menu.open = false; });
+  });
+  // Dismiss any open popup as soon as keyboard focus moves outside navigation.
+  // This avoids a popup concealing a newly focused control underneath it.
+  document.addEventListener('focusin', event => {
+    if (!nav.contains(event.target)) {
+      menus.forEach(menu => { menu.open = false; });
+    }
+  });
+  nav.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      const open = menus.find(menu => menu.open);
+      if (open) {
+        open.open = false;
+        open.querySelector('summary').focus();
+        event.preventDefault();
+      }
+    }
+  });
+  window.addEventListener('scroll', scheduleUpdate, {passive:true});
+  window.addEventListener('resize', scheduleUpdate);
+  window.addEventListener('hashchange', scheduleUpdate);
+  updateNavHeight();
+  updatePartIndicator();
+})();
+</script></body>
+</html>
