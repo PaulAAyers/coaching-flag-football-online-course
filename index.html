@@ -334,12 +334,8 @@
       font-weight: 700;
       line-height: 1.4;
     }
-    #course-top,
-    .page-title,
-    .chapter-heading[id],
-    #chapter-13 {
-      scroll-margin-top: calc(var(--breadcrumb-height) + 20px);
-    }
+    /* HTML scroll-padding already offsets in-page targets for the sticky menu.
+       Do not add a second scroll-margin, which delayed the active Part label. */
     .course-breadcrumb-nav a:focus-visible,
     .course-breadcrumb-nav summary:focus-visible {
       outline: 3px solid #376b9e;
@@ -438,6 +434,13 @@
       .breadcrumb-picker > summary { min-height: 42px; padding: 7px 8px; }
     }
 
+    /* Copyright and support link at the end of the course materials. */
+    .course-footer {
+      padding: 24px 5.25% 36px;
+      border-top: 1px solid var(--rule);
+      background: #fff;
+    }
+    .course-footer p { margin: 0; }
 </style>
 </head>
 <body>
@@ -452,9 +455,9 @@
 <section aria-labelledby="reading-1" class="reading-block required-reading">
 <h3 id="reading-1">Required Reading (in <cite>Coaching Flag Football</cite>)</h3>
 <ul>
-<li>Chapter 1 Learning and Leading in Flag Football</li>
-<li>Chapter 2 Coaching Philosophy and Priorities</li>
-<li>Chapter 3 Communication and Motivation</li>
+<li>Chapter 1: Learning and Leading in Flag Football</li>
+<li>Chapter 2: Coaching Philosophy and Priorities</li>
+<li>Chapter 3: Communication and Motivation</li>
 </ul>
 <h4 class="subsection-heading objectives-heading">Learning Objectives</h4>
 <h5 class="chapter-heading" id="chapter-1" tabindex="-1">Chapter 1</h5>
@@ -510,9 +513,9 @@
 <section aria-labelledby="reading-3" class="reading-block required-reading">
 <h3 id="reading-3">Required Reading (in <cite>Coaching Flag Football</cite>)</h3>
 <ul>
-<li>Chapter 4 Coach a Team, Construct a Program</li>
-<li>Chapter 5 A Culture of Caring</li>
-<li>Chapter 6 Program Support and Resources</li>
+<li>Chapter 4: Coach a Team, Construct a Program</li>
+<li>Chapter 5: A Culture of Caring</li>
+<li>Chapter 6: Program Support and Resources</li>
 <li>Chapter 7 Program Organization and Expectations</li>
 <li>Chapter 8 Season and Practice Scheduling</li>
 </ul>
@@ -576,11 +579,11 @@
 <section aria-labelledby="reading-5" class="reading-block required-reading">
 <h3 id="reading-5">Required Reading (in <cite>Coaching Flag Football</cite>)</h3>
 <ul>
-<li>Chapter 9 Developing Offensive Skills</li>
-<li>Chapter 10 Playing Offense</li>
-<li>Chapter 11 Developing Defensive Skills</li>
-<li>Chapter 12 Playing Defense</li>
-<li id="chapter-13" tabindex="-1">Chapter 13 Coaching Special Teams</li>
+<li>Chapter 9: Developing Offensive Skills</li>
+<li>Chapter 10: Playing Offense</li>
+<li>Chapter 11: Developing Defensive Skills</li>
+<li>Chapter 12: Playing Defense</li>
+<li id="chapter-13" tabindex="-1">Chapter 13: Coaching Special Teams</li>
 </ul>
 <h4 class="subsection-heading objectives-heading">Learning Objectives</h4>
 <h5 class="chapter-heading" id="chapter-9" tabindex="-1">Chapter 9</h5>
@@ -700,6 +703,9 @@
 </section>
 </section>
 </main>
+<footer class="course-footer" aria-label="Copyright and support">
+<p>Download the <a class="resource-download" href="resources/copyright/L1911-Coaching_Flag_Football-copyright.docx" download="L1911-Coaching_Flag_Football-copyright.docx">Copyright and Support document</a>.</p>
+</footer>
 <script>
 (() => {
   'use strict';
